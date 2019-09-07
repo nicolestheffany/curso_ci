@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>Fixed Nav + Sticky Footer</title>
+		<title>Nicole flash</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="<?=base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">

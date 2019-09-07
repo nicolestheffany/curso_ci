@@ -40,5 +40,22 @@ class Tuiter extends CI_Controller {
 		$this->post_model->msg = $msg;
         $this->post_model->inserir();      
 	}
-
+	public function excluir($id)
+	{
+		$this->load->model('post_model');
+	
+		$this->post_model->id=$id;
+		$this->post_model->deletar();
+		
+       redirect('tuiter');      
+	}
+	public function editar($id)
+	{
+		$this->load->model('post_model');
+	
+		$this->post_model->id=$id;
+		$this->post_model->edit();
+		
+       redirect('tuiter');      
+	}
 }

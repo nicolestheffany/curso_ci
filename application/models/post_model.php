@@ -17,4 +17,10 @@ public function recuperar(){
     $query = $this->db->get('post');
     return $query->result();
 }
+public function deletar(){
+    $this->db->where('id', $this->id)->delete('post');  
+}
+public function editar(){
+    $this->db->where('id', $this->id)->edit('post');  
+}
 }
